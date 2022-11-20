@@ -1,0 +1,14 @@
+[
+    {
+        "watchType_id":1,
+        "watch_type":"Smart Watch"
+    },
+    {
+        "watchType_id":2,
+        "watch_type":"Regular Watch"
+    },
+    {
+        "watchType_id":3,
+        "watch_type":"Clocks"
+    }
+]
