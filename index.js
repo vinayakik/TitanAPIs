@@ -184,7 +184,7 @@ app.put("/updateOrder/:oId",(req,res)=>{
     {
       $set:{
         "status":req.body.status,
-        "Bank_Details": req.body.bank_name,
+        "bank_details": req.body.bank_details,
         "date":req.body.date
       }
     },(err,result)=>{
