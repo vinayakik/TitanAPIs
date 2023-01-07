@@ -42,7 +42,7 @@ app.get("/watches",(req,res)=>{
 })
 
 //To get the watch details which are in Shop for section
-app.get("./shopFor",(req,res)=>{
+app.get("/shopFor",(req,res)=>{
   db.collection("shop_for").find({}).toArray((err,result)=>{
     if(err) throw err;
     res.send(result);
