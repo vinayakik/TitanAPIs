@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "watchType":"Men Watches",
+        "watchType_id":2,
+        "collection_id":1,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essentials_titan-men.webp"
+    },
+    {
+        "id":2,
+        "watchType":"Women Watches",
+        "watchType_id":2,
+        "collection_id":2,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essentials_titan-women.webp"
+    },
+    {
+        "id":3,
+        "watchType":"Couple Watches",
+        "watchType_id":2,
+        "collection_id":4,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essentials_titan-pair.webp"
+    },
+    {
+        "id":4,
+        "watchType":"Kid Watches",
+        "watchType_id":2,
+        "collection_id":5,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essentials_titan-kids.webp"
+    },
+    {
+        "id":5,
+        "watchType":"Personalized",
+        "watchType_id":null,
+        "collection_id":null,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essentials_titan-personalize.webp"
+    },
+    {
+        "id":6,
+        "watchType":"Wall Clocks",
+        "watchType_id":3,
+        "collection_id":null,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essentials_titan-wallClock.webp"
+    },
+    {
+        "id":7,
+        "watchType":"Wallets",
+        "watchType_id":null,
+        "collection_id":null,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essentials_titan-wallet.webp"
+    },
+    {
+        "id":8,
+        "watchType":"Face Masks",
+        "watchType_id":null,
+        "collection_id":null,
+        "watch_image":"https://staticimg.titan.co.in/Titan/Banners/home/shopByCategory/essential_mask.webp"
+    }
+]

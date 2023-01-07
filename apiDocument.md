@@ -4,41 +4,42 @@
 
 ///////////Listing page
 ->Watches with respect to watchCollections or watchType
-* http://localhost:9800/watches?watchType=2
-* http://localhost:9800/watches?collectionId=2
+* https://titan-a1eo.onrender.com/watches?watchType=3
+* https://titan-a1eo.onrender.com/watches?collectionId=4
+
 
 ->Filter based on watch brand and collection selected (GET)
-* http://localhost:9800/collectionFilter/2?brandId=5
+* https://titan-a1eo.onrender.com/collectionFilter/2?brandId=5
 
 ->Filter based on watch price and collection selected(GET)
-* http://localhost:9800/collectionFilter/2?lprice=20000&hprice=30000
+* https://titan-a1eo.onrender.com/collectionFilter/2?lprice=20000&hprice=30000
 
 ->Filter based on watch brand and watch type(GET)
-* http://localhost:9800/watchTypeFilter/1?brandId=5
+* https://titan-a1eo.onrender.com/watchTypeFilter/1?brandId=5
 
 ->Filter based on watch price and watch type(GET)
-* http://localhost:9800/watchTypeFilter/1?lprice=2000&hprice=30000
+* https://titan-a1eo.onrender.com/watchTypeFilter/1?lprice=8000&hprice=30000
 
 ->Sorting based on the price
-* http://localhost:9800/collectionFilter/2?sort=1
+* https://titan-a1eo.onrender.com/collectionFilter/2?sort=1
 
 
 
 /////////Details page
 ->To show the details of selected watch(GET)
-* http://localhost:9800/details?watchId=20
+* https://titan-a1eo.onrender.com/details?watchId=20
 
 
 /////////cart page
 ->To show the items added to cart (POST)
-* http://localhost:9800/cart
+* https://titan-a1eo.onrender.com/cart
 body:
  { 
     "id":[ 11,34,23,9 ] 
     }
 
 ->To place the order (POST)
-* http://localhost:9800/placeOrder
+* https://titan-a1eo.onrender.com/placeOrder
 body { 
     "orderId": 3, 
     "name": "Amit", 
@@ -52,13 +53,13 @@ body {
 ///Orders
 
 ->List of orders (GET)
-* http://localhost:9800/orders
+* https://titan-a1eo.onrender.com/orders
 
 -> List of orders wrt to email (GET)
-* http://localhost:9800/orders?email=vik@gmail.com
+* https://titan-a1eo.onrender.com/orders?email=vik@gmail.com
 
 ->Update payment details (PUT)
-* http://localhost:9800/updateOrder/1
+* https://titan-a1eo.onrender.com/updateOrder/2
 body{
     "status":"Delivered",
     "bank_details":"HDFC Bank",
@@ -67,4 +68,4 @@ body{
 
 ->Delete order (DELETE)
 
-* http://localhost:9800/deleteOrder/63727fe4fb4814c2a4b80933
+* https://titan-a1eo.onrender.com/deleteOrder/6372a91f116bbb14cd7bd024

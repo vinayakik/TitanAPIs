@@ -41,6 +41,14 @@ app.get("/watches",(req,res)=>{
 })
 })
 
+//To get the watch details which are in Shop for section
+app.get("./shopFor",(req,res)=>{
+  db.collection("shop_for").find({}).toArray((err,result)=>{
+    if(err) throw err;
+    res.send(result);
+  })
+})
+
 // Filter by brand or price when user has selected watchcollection (men,women,couple,kids)
 
 app.get("/collectionFilter/:collectionId",(req,res)=>{
@@ -184,7 +192,7 @@ app.put("/updateOrder/:oId",(req,res)=>{
     {
       $set:{
         "status":req.body.status,
-        "Bank_Details": req.body.bank_name,
+        "bank_details": req.body.bank_details,
         "date":req.body.date
       }
     },(err,result)=>{
